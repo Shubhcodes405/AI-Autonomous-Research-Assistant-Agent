@@ -7,9 +7,9 @@ An autonomous AI agent that takes a research query, searches the web, retrieves 
 1. Clone the repo
 2. Install dependencies
    pip install openai chromadb requests beautifulsoup4 python-dotenv streamlit
-3. Add your OpenAI key — create a .env file
+3. Add your OpenAI key and create a .env file
    OPENAI_API_KEY=sk-your-key-here
-4. Seed the knowledge base (run once)
+4. Seed the knowledge base and run this once
    python rag.py
 
 ## How to run
@@ -26,9 +26,3 @@ GUI mode:
 - rag.py — ChromaDB vector store, ingest and retrieve
 - main.py — entry point for terminal
 - app_streamlit.py — Streamlit web UI
-
-## Notes
-
-- Change the query in main.py to test different topics
-- Upload your own .txt files via the Streamlit sidebar to add to RAG
-- Traces are saved to traces.jsonl after each run
