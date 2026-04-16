@@ -1,6 +1,6 @@
 # Research Assistant Agent
 
-An autonomous AI agent that takes a research query, searches the web, retrieves from a private knowledge base, writes a report, and evaluates itself using a second LLM.
+An autonomous AI agent that takes a research query, searches the web, retrieves from a provided knowledge base, writes a report, and evaluates itself using a second LLM.
 
 ## Setup
 
